@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            href="https://nid.naver.com/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>네이버 : 회원가입</title>
+    </head>
+    <body>
+        <h1>
+            <img
+                src="./img/naver_logo.png"
+                style="width: 94px"
+                alt="네이버 로고"
+            />
+        </h1>
+        <form>
+            <div>
+                <label for="sign-up">실명 인증된 아이디로 가입</label>
+                <input type="checkbox" name="sign-up" id="sign-up" />
+            </div>
+            <fieldset>
+                <div>
+                    <img src="./img/id.png" alt="아이디" width="30px" />
+                    <input
+                        type="text"
+                        name="id"
+                        placeholder="아이디"
+                        style="width: 314.08px; height: 22px"
+                        required
+                    />
+                    <span>@naver.com</span>
+                </div>
+                <div>
+                    <img src="./img/password.png" alt="비밀번호" width="30px" />
+                    <input
+                        type="password"
+                        name="password"
+                        placeholder="비밀번호"
+                        style="width: 361px; height: 22px"
+                        required
+                    />
+                    <img src="./img/hide.png" alt="비밀번호" width="30px" />
+                </div>
+                <div>
+                    <img src="./img/mail.png" alt="이메일" width="30px" />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="[선택] 이메일주소 (비밀번호 찾기 등 본인 확인용)"
+                        style="width: 405px; height: 22px"
+                    />
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <img src="./img/id.png" alt="이름" width="30px" />
+                    <input
+                        type="text"
+                        name="id"
+                        placeholder="이름"
+                        style="width: 405px; height: 22px"
+                        required
+                    />
+                </div>
+                <div>
+                    <img src="./img/calendar.png" alt="생년월일" width="30px" />
+                    <input
+                        type="text"
+                        name="birthday"
+                        placeholder="생년월일 8자리"
+                        style="width: 405px; height: 22px"
+                        required
+                    />
+                </div>
+                <div>
+                    <img src="./img/mobile.png" alt="통신사" width="30px" />
+                    <button type="button" style="width: 405px; height: 22.8px">
+                        <span>통신사 선택</span>
+                    </button>
+                    <select name="통신사" id="telecom" required>
+                        <option value="SKT">SKT</option>
+                        <option value="SKT 알뜰폰">SKT 알뜰폰</option>
+                        <option value="KT">KT</option>
+                        <option value="KT 알뜰폰">KT 알뜰폰</option>
+                        <option value="LG U+">LG U+</option>
+                        <option value="LG U+ 알뜰폰">LG U+ 알뜰폰</option>
+                    </select>
+                </div>
+                <div>
+                    <label> <input type="radio" name="gender" /> 남자 </label>
+                    <label> <input type="radio" name="gender" /> 여자 </label>
+                    <label>
+                        <input type="radio" name="foreigner" /> 내국인
+                    </label>
+                    <label>
+                        <input type="radio" name="foreigner" /> 외국인
+                    </label>
+                </div>
+                <div>
+                    <img src="./img/phone.png" alt="전화번호" width="30px" />
+                    <input
+                        type="tel"
+                        name="phone"
+                        placeholder="휴대전화번호"
+                        style="width: 405px; height: 22px"
+                        required
+                    />
+                </div>
+            </fieldset>
+            <fieldset>
+                <label>
+                    <input type="checkbox" name="agree" required />
+                    [필수] <strong>인증 약관 전체동의</strong>
+                </label>
+                <ul style="display: inline-block">
+                    <li>개인정보 이용</li>
+                    <li>고유식별정보 처리</li>
+                    <li>통신사 이용약관</li>
+                    <li>인증사 이용약관</li>
+                    <li>네이버 개인정보수집</li>
+                </ul>
+            </fieldset>
+            <input type="submit" value="인증 요청" />
+        </form>
+    </body>
+</html>
