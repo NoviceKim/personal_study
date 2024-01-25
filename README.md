@@ -15,3 +15,10 @@
 Github에 personal_study 레포지토리 생성 후 로컬 저장소와 연결 
 
 html 파일 및 그 안의 naver_frame_v1.html과 img 파일 push
+
+
+1/25(목)
+
+1/23 ~ 1/24에 진행한 Frip 사이트 클론 코딩 자료들(HTML, CSS 및 기타 이미지 파일) push
+
+클론 코딩한 사이트 url: https://www.frip.co.kr/products/174052
